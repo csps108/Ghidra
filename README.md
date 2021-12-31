@@ -1,4 +1,4 @@
 # Ghidra
 * auto2ghidra.py-->執行Ghidra Headless程式
-* 反組譯腳本
-Ghidra Dockerfile
+* ghidra2asm.py-->反組譯腳本
+* Dockerfile-->建立Ghidra的Docker環境
