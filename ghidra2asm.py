@@ -119,7 +119,7 @@ Usage: ./analyzeHeadless <PATH_TO_GHIDRA_PROJECT> <PROJECT_NAME> \
     
     # save to file
     
-    fileDir='/Users/yilnhsieh/csti-malware-classify/20211008/upload/txt/'
+    fileDir='/Users/upload/txt/'
     with open(output+'{}.txt'.format(ghidra_app.currentProgram.getName()), 'w') as fw:
         fw.write(disassembled)
         print('[*] success. save to -> {}'.format(fileDir))
